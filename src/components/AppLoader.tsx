@@ -1,7 +1,7 @@
 import { Box, styled } from "@mui/system";
 import React from "react";
 
-import Logo from "assets/images/shared/ton-logo.svg";
+import Logo from "assets/images/shared/ton-logo_.svg";
 import { Fade } from "@mui/material";
 
 const StyledContainer = styled(Box)({
