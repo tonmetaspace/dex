@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/dex/static/css/main.f54f2a5c.css",
-    "main.js": "/dex/static/js/main.ce4605b9.js",
+    "main.css": "/dex/static/css/main.46e8d908.css",
+    "main.js": "/dex/static/js/main.a4d5685c.js",
     "static/js/718.bb855064.chunk.js": "/dex/static/js/718.bb855064.chunk.js",
     "static/js/604.258c9cf2.chunk.js": "/dex/static/js/604.258c9cf2.chunk.js",
     "static/js/245.04ee76d6.chunk.js": "/dex/static/js/245.04ee76d6.chunk.js",
     "static/js/960.20f3400d.chunk.js": "/dex/static/js/960.20f3400d.chunk.js",
     "static/js/772.619fa802.chunk.js": "/dex/static/js/772.619fa802.chunk.js",
     "static/js/613.223afc28.chunk.js": "/dex/static/js/613.223afc28.chunk.js",
-    "static/js/595.4c2421c3.chunk.js": "/dex/static/js/595.4c2421c3.chunk.js",
+    "static/js/595.ecbdb030.chunk.js": "/dex/static/js/595.ecbdb030.chunk.js",
     "static/media/tonhub.png": "/dex/static/media/tonhub.a222cde6645afb15181c.png",
     "static/media/flexing-duck.svg": "/dex/static/media/flexing-duck.e17b0dc8fc75e959094fe92accfcb6ce.svg",
     "static/media/tonkeeper.svg": "/dex/static/media/tonkeeper.4ccc22675b860e475a040cb16093d30b.svg",
@@ -27,7 +27,7 @@
     "static/media/clear.svg": "/dex/static/media/clear.6f170f465beec770b6b497cd4ab70249.svg"
   },
   "entrypoints": [
-    "static/css/main.f54f2a5c.css",
-    "static/js/main.ce4605b9.js"
+    "static/css/main.46e8d908.css",
+    "static/js/main.a4d5685c.js"
   ]
 }
