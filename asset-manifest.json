@@ -1,33 +1,33 @@
 {
   "files": {
-    "main.css": "/dex/static/css/main.1d143319.css",
-    "main.js": "/dex/static/js/main.28ba211b.js",
-    "static/js/718.dee95cc7.chunk.js": "/dex/static/js/718.dee95cc7.chunk.js",
+    "main.css": "/dex/static/css/main.f54f2a5c.css",
+    "main.js": "/dex/static/js/main.ce4605b9.js",
+    "static/js/718.bb855064.chunk.js": "/dex/static/js/718.bb855064.chunk.js",
     "static/js/604.258c9cf2.chunk.js": "/dex/static/js/604.258c9cf2.chunk.js",
     "static/js/245.04ee76d6.chunk.js": "/dex/static/js/245.04ee76d6.chunk.js",
     "static/js/960.20f3400d.chunk.js": "/dex/static/js/960.20f3400d.chunk.js",
     "static/js/772.619fa802.chunk.js": "/dex/static/js/772.619fa802.chunk.js",
     "static/js/613.223afc28.chunk.js": "/dex/static/js/613.223afc28.chunk.js",
-    "static/js/595.5099f220.chunk.js": "/dex/static/js/595.5099f220.chunk.js",
+    "static/js/595.4c2421c3.chunk.js": "/dex/static/js/595.4c2421c3.chunk.js",
     "static/media/tonhub.png": "/dex/static/media/tonhub.a222cde6645afb15181c.png",
     "static/media/flexing-duck.svg": "/dex/static/media/flexing-duck.e17b0dc8fc75e959094fe92accfcb6ce.svg",
     "static/media/tonkeeper.svg": "/dex/static/media/tonkeeper.4ccc22675b860e475a040cb16093d30b.svg",
     "static/media/default-token-image.png": "/dex/static/media/default-token-image.7f04508e9bb03b76f258.png",
     "static/media/chrome.svg": "/dex/static/media/chrome.167f7ab746641de40862642e809305c6.svg",
-    "index.html": "/dex/index.html",
     "static/media/success.svg": "/dex/static/media/success.79a5c2f6fcc496326c3a8261c4463432.svg",
+    "index.html": "/dex/index.html",
     "static/media/ton.svg": "/dex/static/media/ton.097bcb5f892039116605e51999f36bdc.svg",
     "static/media/telegram.svg": "/dex/static/media/telegram.283c3956d6fb1304a3e1d22368de0480.svg",
-    "static/media/wallet-address.svg": "/dex/static/media/wallet-address.57b60a11e4d5fd39eac76f18f88060ee.svg",
-    "static/media/wallet.svg": "/dex/static/media/wallet.fc714ee09ee6021c6120c77726ed285d.svg",
+    "static/media/wallet-address.svg": "/dex/static/media/wallet-address.b5da565bb1a370749525abf94acf6ae9.svg",
+    "static/media/wallet.svg": "/dex/static/media/wallet.0213388984f22d1c3deaf3dd059a33a6.svg",
     "static/media/github.svg": "/dex/static/media/github.2e4ee8dda7d31aa473b58b3329948d73.svg",
-    "static/media/ton-logo_.svg": "/dex/static/media/ton-logo_.908b8767ac678b0b8dc7f6de3d519e70.svg",
-    "static/media/search.svg": "/dex/static/media/search.a87f18033e15d7c82b8db88724091db7.svg",
+    "static/media/ton-logo_.svg": "/dex/static/media/ton-logo_.3fb61d3bceb965c5e1fc1218c044ceee.svg",
+    "static/media/search.svg": "/dex/static/media/search.c0394d06e5dcd4b32a57ba84311c1664.svg",
     "static/media/close.svg": "/dex/static/media/close.bae43592c70f403d963844498955fc8e.svg",
-    "static/media/clear.svg": "/dex/static/media/clear.b20146948950204e3336802ef47ff914.svg"
+    "static/media/clear.svg": "/dex/static/media/clear.6f170f465beec770b6b497cd4ab70249.svg"
   },
   "entrypoints": [
-    "static/css/main.1d143319.css",
-    "static/js/main.28ba211b.js"
+    "static/css/main.f54f2a5c.css",
+    "static/js/main.ce4605b9.js"
   ]
 }
