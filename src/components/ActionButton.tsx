@@ -15,7 +15,7 @@ const StyledBox = styled(Box)({
   display: "flex",
   alignItems: "center",
   fontSize: 17,
-  fontWeight: 600,
+  fontWeight: 900,
   width: "100%",
   justifyContent: "center",
   gap: 10,

@@ -7,7 +7,7 @@ const useStyles = makeStyles((theme: Theme) => ({
     flex: 1,
     display: "flex",
     flexDirection: "column",
-    width: 400,
+    width: 900,
     paddingLeft: 26,
     paddingRight: 22,
     paddingTop: 20,
@@ -31,7 +31,7 @@ const useStyles = makeStyles((theme: Theme) => ({
       marginTop: 25,
     },
     "& h3": {
-      fontWeight: 500,
+      fontWeight: 900,
       fontSize: 24,
     },
   },
@@ -78,17 +78,17 @@ const useStyles = makeStyles((theme: Theme) => ({
       height: 63,
     },
     "& p": {
-      fontWeight: 500,
+      fontWeight: 900,
     },
     [theme.breakpoints.down("sm")]: {
       marginTop: 15,
     },
   },
   selectedTokenTitle: {
-    fontWeight: 500,
+    fontWeight: 900,
   },
   replace: {
-    fontWeight: 400,
+    fontWeight: 900,
     fontSize: 14,
     marginTop: 22,
     color: theme.palette.secondary.main,
@@ -128,7 +128,7 @@ export const StyledConnectChip = styled(StyledChip)(({ theme }) => ({
   cursor: "pointer",
   p: {
     color: theme.palette.primary.main,
-    fontWeight: 600,
+    fontWeight: 900,
   },
   [theme.breakpoints.down("sm")]: {
     fontSize: 12,

@@ -156,7 +156,7 @@ const SlidingMenuItem = ({
 
   return (
     <StyledOption style={{ width }} onClick={onClick}>
-      <Typography style={{ fontWeight: 500 }}>
+      <Typography style={{ fontWeight: 900 }}>
         {t(item.text, { token: symbol })}
       </Typography>
     </StyledOption>

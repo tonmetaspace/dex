@@ -25,7 +25,7 @@ const useStyles = makeStyles((theme: Theme) => ({
     "& h3": {
       transition:'0.2s all',
       fontSize: 24,
-      fontWeight: 500,
+      fontWeight: 900,
       [theme.breakpoints.down('sm')]: {
         fontSize: 19,
       }
