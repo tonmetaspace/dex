@@ -43,7 +43,7 @@ export const StyledToken = styled(Box)(({color}:{color: string}) => ({
 
   "& p": {
     fontSize: 14,
-    fontWeight: 500,
+    fontWeight: 900,
     color:'white'
   }
 }));
