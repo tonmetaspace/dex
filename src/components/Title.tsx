@@ -3,7 +3,7 @@ import { ReactNode } from "react";
 
 export function Title({ children }: { children: ReactNode }) {
   return (
-    <Typography  component="h3" fontSize={24} fontWeight={500}>
+    <Typography  component="h3" fontSize={24} fontWeight={900}>
       {children}
     </Typography>
   );

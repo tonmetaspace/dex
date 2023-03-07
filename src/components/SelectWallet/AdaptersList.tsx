@@ -50,7 +50,7 @@ const StyledListItemRight = styled(Box)(({ theme }: { theme: Theme }) => ({
   "& h5": {
     color: theme.palette.secondary.main,
     fontSize: "18px",
-    fontWeight: "500",
+    fontWeight: "900",
     marginBottom: "5px",
   },
 

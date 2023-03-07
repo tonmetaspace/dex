@@ -1,7 +1,7 @@
 import Box from "@mui/material/Box";
 import Typography from "@mui/material/Typography";
 import { useStyles } from "./styles";
-import TonLogo from "assets/images/shared/ton-logo.svg";
+import TonLogo from "assets/images/shared/ton-logo_.svg";
 import { styled } from "@mui/system";
 import { useTokenOperationsStore } from "store/token-operations/hooks";
 import { ROUTES } from "router/routes";
@@ -11,7 +11,7 @@ import { OperationType } from "store/application/reducer";
 
 const StyledText = styled(Typography)(({ theme }) => ({
   fontSize: 18,
-  color: "#6D6D6D",
+  color: "#1b1f23",
   [theme.breakpoints.down("sm")]: {
     fontSize: 15,
   },
@@ -19,9 +19,9 @@ const StyledText = styled(Typography)(({ theme }) => ({
 
 const LogoWithText = () => {
   const classes = useStyles();
-  const {  selectedToken } = useTokenOperationsStore();
+  const { selectedToken } = useTokenOperationsStore();
   const navigate = useNavigateWithParams();
-  const {operationType} = useApplicationStore()
+  const { operationType } = useApplicationStore()
 
   const onClick = () => {
     if (!selectedToken) {
@@ -45,7 +45,7 @@ const LogoWithText = () => {
     >
       <img className={classes.logo} src={TonLogo} alt="" />
       <StyledText>
-        <strong>Ton</strong>Swap
+        <strong>DEX</strong>
       </StyledText>
     </Box>
   );

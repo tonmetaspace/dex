@@ -17,7 +17,7 @@ function Title({ text }: Props) {
   
   return (
     <StyledContainer>
-      <Typography style={{whiteSpace: 'nowrap', paddingRight:'20px', fontWeight:'500', fontSize:'18px'}}>{text}</Typography>
+      <Typography style={{whiteSpace: 'nowrap', paddingRight:'20px', fontWeight:'900', fontSize:'18px'}}>{text}</Typography>
     </StyledContainer>
   );
 }

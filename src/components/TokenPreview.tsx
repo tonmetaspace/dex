@@ -8,7 +8,7 @@ const StyledContainer = styled(Box)({
     alignItems:'center',
     "& .token-name": {
       fontSize: 14,
-      fontWeight: 600,
+      fontWeight: 900,
       marginLeft: 10,
     },
     "& .token-image": {
