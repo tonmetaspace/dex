@@ -164,7 +164,7 @@ const StyledTokenDisplay = styled(Box)({
   p: {
     color: "white",
     fontSize: 12,
-    fontWeight: 600,
+    fontWeight: 900,
   },
 });
 
@@ -182,7 +182,7 @@ const StyledBottom = styled(Box)({
   p: {
     color: "white",
     fontSize: 12,
-    fontWeight: 400,
+    fontWeight: 900,
   },
 });
 
@@ -192,7 +192,7 @@ const StyledFooterTradeInfo = styled(Box)({
   p: {
     color: "white",
     fontSize: 12,
-    fontWeight: 400,
+    fontWeight: 900,
   },
 });
 
@@ -212,7 +212,7 @@ const StyledInput = styled(Box)(({ expanded }: { expanded: boolean }) => ({
     input: {
       color: "white",
       fontSize: 29,
-      fontWeight: 600,
+      fontWeight: 900,
       height: "100%",
       paddingRight: 10,
       textIndent: 5,

@@ -30,7 +30,7 @@ const StyledMaxButton = styled('button')({
   "p": {
     color: 'white',
     fontSize: 12,
-    fontWeight: 500
+    fontWeight: 900
   }
 })
 
