@@ -28,6 +28,33 @@ export type PoolInfoRaw = {
 };
 
 export const MainNetPoolsRoot: { [key: string]: PoolInfo } = {
+    "EQB9Op5MAUoymk6Y_4x5IX3qdGHhUhSmMmsVoEA-jzOYI7g-": {
+        ammMinter: "EQDfNXyqvcRNn5ecJ_HDXu8eFJ8A3l4zUPoNguBE9guoCIc0",
+        tokenMinter: "EQB9Op5MAUoymk6Y_4x5IX3qdGHhUhSmMmsVoEA-jzOYI7g-",
+        image: "https://cache.tonapi.io/imgproxy/419-dLlmMDdiRHFzEJAllekr20jczVl0Y2v-r64D3dw/rs:fill:200:200:1/g:no/aHR0cHM6Ly9pcGZzLmlvL2lwZnMvYmFmeWJlaWVoYnh4MjV1ZmxlY3ozdHBzN2RmeHp5NzZycWRrN2kyb2Q1ZnJjdm4yc2cyaWs1bGlrZ2EvP2ZpbGVuYW1lPWxvZ29fY29uLnBuZw.webp",
+        displayName: "CON",
+        color: "#1b1f23",
+        name: "TONCon",
+        decimals: 9,
+    },
+    "EQDEcJlTPBymzUqOJ15QR44vIlPIHhsWllrIafWpPdeHiuNR": {
+        ammMinter: "EQAm79IxsggEDUBArrw3yXlbKmapvCj2rlzKNoj5tCsgMnZ1",
+        tokenMinter: "EQDEcJlTPBymzUqOJ15QR44vIlPIHhsWllrIafWpPdeHiuNR",
+        image: "https://cache.tonapi.io/imgproxy/FDcUw2JFUphF2irJPrZdQP-Uz9R2urTvJtvjAaXFDNE/rs:fill:200:200:1/g:no/aHR0cHM6Ly9pcGZzLmlvL2lwZnMvYmFma3JlaWhwcW5ramNmd2ZpcGVrZ2o3Z3RwY2hiNmFkbm83czZ5ZGlnb25iaHN2d3hkbWV4NWF3YXU.webp",
+        displayName: "DON",
+        color: "#0061d2",
+        name: "Donation",
+        decimals: 9,
+    },
+    "EQAgkc5YfAA1Hc75QXcZJrL15l3LXoQr0CaK4sqcpHRFXFxh": {
+        ammMinter: "EQDXjFixseiUM1Y2NMpxfRNEhfj7zHHe68qP1N9DCBrOo8sO",
+        tokenMinter: "EQAgkc5YfAA1Hc75QXcZJrL15l3LXoQr0CaK4sqcpHRFXFxh",
+        image: "https://cache.tonapi.io/imgproxy/BJDj9oHHl_JVNVc6c7x72g0Kxy98miugZO8vwZMed4Q/rs:fill:200:200:1/g:no/aHR0cHM6Ly9iYWZrcmVpY28zeGdyYWxidmUzNzRsN29zeWpiM2s3dXh1eWFrcWxzeGcyeTZpYW5veGcyaXJ0ZnZqeS5pcGZzLm5mdHN0b3JhZ2UubGluay8.webp",
+        displayName: "Svet",
+        color: "#390075",
+        name: "TON Svet",
+        decimals: 9,
+    },
     "EQC61IQRl0_la95t27xhIpjxZt32vl1QQVF2UgTNuvD18W-4": {
         ammMinter: "EQDnLbES4CER47LYR45Ti0cw4ScvPUJ3HShtH9FbIFGDACkj",
         tokenMinter: "EQC61IQRl0_la95t27xhIpjxZt32vl1QQVF2UgTNuvD18W-4",
@@ -36,43 +63,6 @@ export const MainNetPoolsRoot: { [key: string]: PoolInfo } = {
         color: "#3EAAB1",
         name: "Orbit Bridge TON USD Coin",
         decimals: 6,
-    },
-    "EQAW42HutyDem98Be1f27PoXobghh81umTQ-cGgaKVmRLS7-": {
-        ammMinter: "EQDXAi23o05pbnxMGIQVFDrZt6fdPeRZlMQ0sPPm0tpEju5I",
-        tokenMinter: "EQAW42HutyDem98Be1f27PoXobghh81umTQ-cGgaKVmRLS7-",
-        image: "https://raw.githubusercontent.com/orbit-chain/bridge-token-image/main/ton/eth.png",
-        displayName: "oETH",
-        color: "#3EAAB1",
-        name: "Orbit Bridge TON Ethereum",
-        decimals: 18,
-    },
-    EQANasbzD5wdVx0qikebkchrH64zNgsB38oC9PVu7rG16qNB: {
-        ammMinter: "EQA0b9fTX2eVTV8QfdyGlGUO6uTc2wWOs-7IsxqmU2FuOvvC",
-        tokenMinter: "EQANasbzD5wdVx0qikebkchrH64zNgsB38oC9PVu7rG16qNB",
-        image: "https://raw.githubusercontent.com/orbit-chain/bridge-token-image/main/ton/wbtc.png",
-        displayName: "oWBTC",
-        color: "#3EAAB1",
-        name: "Orbit Bridge TON WBTC",
-        decimals: 8,
-    },
-    "EQAwr5lcbQcLKTAg_SQ-dpKWNQZpO1MGnrAs53bf1gkKTVHx": {
-        ammMinter: "EQAoFEOWRZt9rZlJDv60ErW-BlaXsI4Q1yLSAdzqcYuwkg0j",
-        tokenMinter: "EQAwr5lcbQcLKTAg_SQ-dpKWNQZpO1MGnrAs53bf1gkKTVHx",
-        image: "https://raw.githubusercontent.com/orbit-chain/bridge-token-image/main/ton/orbs.png",
-        displayName: "oORBS",
-        color: "#3EAAB1",
-        name: "Orbit Bridge TON Orbs",
-        decimals: 18,
-    },
-    "EQDCJL0iQHofcBBvFBHdVG233Ri2V4kCNFgfRT-gqAd3Oc86": {
-        ammMinter: "EQCiC_tXfU9p5oACQY0naMZi0tZz-1oeKdB1mh3KjvpogFgB",
-        tokenMinter: "EQDCJL0iQHofcBBvFBHdVG233Ri2V4kCNFgfRT-gqAd3Oc86",
-        image: "https://media.fanz.ee/images/91ee938a92934656a01131c569b377b6.png",
-        displayName: "FNZ",
-        color: "#CCAAFF",
-        name: "Fanzee Token",
-        isCustom: false,
-        decimals: 9,
     },
     "EQCcLAW537KnRg_aSPrnQJoyYjOZkzqYp6FVmRUvN1crSazV": {
         ammMinter: "EQB8Fmy0fbDNyEP_j0lZLbJqbEORgyWLEmJPJWMNbPy-vS_7",
@@ -84,76 +74,12 @@ export const MainNetPoolsRoot: { [key: string]: PoolInfo } = {
         isCustom: false,
         decimals: 9,
     },
-    "EQBl3gg6AAdjgjO2ZoNU5Q5EzUIl8XMNZrix8Z5dJmkHUfxI": {
-        ammMinter: "EQB83OCEDal8X493MPol9owHgHpxsAsm2W02iu8uZXckOFGH",
-        tokenMinter: "EQBl3gg6AAdjgjO2ZoNU5Q5EzUIl8XMNZrix8Z5dJmkHUfxI",
-        image: "https://bafkreig3d3barh2mruuygsugy7e2ebtkkazs7hxob6ghcqmcpqg67konca.ipfs.nftstorage.link/",
-        displayName: "LAVE",
-        color: "#CDB8D7",
-        name: "Lavandos",
-        decimals: 9,
-    },
-    "EQAvDfWFG0oYX19jwNDNBBL1rKNT9XfaGP9HyTb5nb2Eml6y": {
-        ammMinter: "EQB3jfFvpzv8ZC0CjFgxX4-d1XsoZaVJ3mlfp8EfFdrpqqzt",
-        tokenMinter: "EQAvDfWFG0oYX19jwNDNBBL1rKNT9XfaGP9HyTb5nb2Eml6y",
-        image: "https://bafkreihafcr35l764lbwllejvdgux2anmhkyi7kab7ytqxn2cjq44ukhoa.ipfs.nftstorage.link/",
-        displayName: "TGR",
-        color: "#69ABE8",
-        ammVersion: 1.1,
-        name: "Tegro Token",
-        decimals: 9,
-    },
-    "EQBzyesZ3p1WGNrggNSJi6JFK3vr0GhqJp4gxker9oujjcuv": {
-        name: "TonTake",
-        ammMinter: "EQASiflLNONDlfvj4ZO6Vt7P1tB7yJ6s8BeW2GEEKODmOU_w",
-        tokenMinter: "EQBzyesZ3p1WGNrggNSJi6JFK3vr0GhqJp4gxker9oujjcuv",
-        displayName: "TAKE",
-        image: "https://bafkreifj24zj44pu6zqq2u2wainycswqpafhwal4ttqhjt4t4yzgibipua.ipfs.nftstorage.link/",
-        color: "#83ABCD",
-        decimals: 9,
-    },
-    "EQB-ajMyi5-WKIgOHnbOGApfckUGbl6tDk3Qt8PKmb-xLAvp": {
-        name: "TonexCoin",
-        ammMinter: "EQBLNl0ixeqsDRCGOGEjA9Zsbf7Pjqpjjb0FqBkFjLktXO7E",
-        tokenMinter: "EQB-ajMyi5-WKIgOHnbOGApfckUGbl6tDk3Qt8PKmb-xLAvp",
-        displayName: "TNX",
-        image: "https://bafkreiej6elbgpxhx65ej4swf4vlvrxmgavtv3rafq37q7zp5j42tjpn6y.ipfs.nftstorage.link/",
-        color: "#234054",
-        decimals: 9,
-    },
-    "EQD0vdSA_NedR9uvbgN9EikRX-suesDxGeFg69XQMavfLqIw": {
-        name: "Huebel Bolt",
-        ammMinter: "EQBIzHiopIkaXdXdSZ6Sm57kZV0y_5tZjnGO4fTUsMT0lOUz",
-        tokenMinter: "EQD0vdSA_NedR9uvbgN9EikRX-suesDxGeFg69XQMavfLqIw",
-        displayName: "BOLT",
-        image: "https://bafkreibl2zdu5enctuaygly4xs2zi6z2tqtyaeb5whpnwzjabryitshroa.ipfs.nftstorage.link/",
-        color: "#7c7c7c",
-        decimals: 9,
-    },
-    "EQDKXqUJ2YE_NhLehOLZBkSp-mPDI1T7ih1VsGqxJCwNoWg6": {
-        name: "LifeBlood Coin",
-        ammMinter: "EQCq4FMdgxhaKbSCS-vRsrrg-y6n78om3aGwBAPqAmEj5mch",
-        tokenMinter: "EQDKXqUJ2YE_NhLehOLZBkSp-mPDI1T7ih1VsGqxJCwNoWg6",
-        displayName: "LBC",
-        image: "https://bafkreicptoxshksqauofgcau4vexo3gqeogx4sjug66rwj235tly4xpypa.ipfs.nftstorage.link/",
-        color: "#FF6800",
-        decimals: 9,
-    },
-    "EQA5JQIavp8-1053-23xry7B0-18-0uTubhPSX2VhTELe-RP": {
-        ammMinter: "EQAt_yq_KS7I8-EKyC9c6LZ5OzSkDmmZxWMUTb0l7pf94AyZ",
-        tokenMinter: "EQA5JQIavp8-1053-23xry7B0-18-0uTubhPSX2VhTELe-RP",
-        image: "https://bafkreid74uh3urooz4oib7dx5kr7i7zwmpdbx72vdq4ffb3slvhluhegna.ipfs.nftstorage.link/",
-        displayName: "BKN",
-        color: "#EDBC7A",
-        name: "BookN",
-        decimals: 9,
-    },
 };
 
 export let MainNetPools = (): { [key: string]: PoolInfo } => MainNetPoolsRoot;
 
 export const UsersPools = (): { [key: string]: PoolInfo } => {
-    return  {...localStorageTokensToObject()}
+    return { ...localStorageTokensToObject() }
 };
 
 export const TemporaryPool = (): { [key: string]: PoolInfo } => {
