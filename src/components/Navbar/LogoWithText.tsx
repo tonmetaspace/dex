@@ -10,8 +10,8 @@ import { useApplicationStore } from "store/application/hooks";
 import { OperationType } from "store/application/reducer";
 
 const StyledText = styled(Typography)(({ theme }) => ({
-  fontSize: 18,
-  color: "#1b1f23",
+  fontSize: 20,
+  color: "#fff",
   [theme.breakpoints.down("sm")]: {
     fontSize: 15,
   },

@@ -216,7 +216,7 @@ const StyledContainer = styled(Box)({
 const StyledTitle = styled(Box)({
   position: 'sticky',
   top: 54,
-  background: 'white',
+  background: '#1b1f23',
   zIndex: 10,
   paddingBottom: 10,
 })

@@ -26,7 +26,7 @@ const StyledWrapper = styled(AppGrid)({});
 //   background: transparent ? "rgba(0,0,0,0)" : 'white'
 // }))
 const StyledToolbar = styled(Toolbar)({
-  background: "white",
+  background: "#1b1f23",
 });
 
 export const Navbar = observer(() => {

@@ -69,7 +69,7 @@ const PoolInfoText = styled(Typography)({
   fontSize: '12px',
   fontWeight: 400,
   letterSpacing: '-0.15px',
-  fontFamily: 'Roboto',
+  fontFamily: 'Mulish',
   overflow: 'hidden',
   whiteSpace: 'nowrap',
   textOverflow: 'ellipsis',

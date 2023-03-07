@@ -28,7 +28,7 @@ function FullPageLoader({ open, children }: Props) {
   return (
     <Backdrop
       sx={{
-        color: "#fff",
+        color: "#434343",
         zIndex: (theme) => theme.zIndex.drawer + 1,
         backdropFilter: "blur(5px) ",
       }}

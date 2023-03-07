@@ -36,7 +36,7 @@ const AddressText = ({ address }: { address: string }) => {
       </Link>
       <CopyToClipboard text={address} onCopy={onCopy}>
         <IconButton sx={{ padding: 0 }}>
-          <ContentCopyIcon style={{ color: '#50A7EA', width: 20, height: 20 }} />
+          <ContentCopyIcon style={{ color: '#FFF', width: 20, height: 20 }} />
         </IconButton>
       </CopyToClipboard>
     </StyledAddressBox>

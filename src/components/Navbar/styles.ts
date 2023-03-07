@@ -17,7 +17,7 @@ const useStyles = makeStyles((theme: Theme) => ({
     },
   },
   menuIcon: {
-    color: "#6D6D6D",
+    color: "#fff",
   },
   leftGrid: {
     display: "flex",

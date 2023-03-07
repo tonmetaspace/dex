@@ -73,7 +73,7 @@ const WalletAddress = observer(() => {
             className="toggle"
             onClick={() => setShowDisconnect(!showDisconnect)}
           >
-            <ArrowDropDownIcon style={{ color: "#50A7EA" }} />
+            <ArrowDropDownIcon style={{ color: "#2188ff" }} />
           </IconButton>
         </StyledConnectedChip>
       ) : (

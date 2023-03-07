@@ -47,7 +47,7 @@ const ContentContainer = styled(Box)({
   display: 'flex',
   alignItems: 'center',
   justifyContent: 'space-between',
-  border: '1px solid #AEAEAE',
+  border: '1px solid #2188ff',
   borderRadius: '12px',
   padding: '0 12px',
 })

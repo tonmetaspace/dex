@@ -38,7 +38,7 @@ export const COMING_SOON = "(coming soon)";
 export const GITHUB = "https://github.com/tonmetaspace/dex";
 export const TELEGRAM = "https://t.me/tonmetaspace";
 
-export const SUPPORT = "https://t.me/tonmetaspace_support";
+export const SUPPORT = "https://t.me/tonmetaspace_support_bot";
 
 export const ZERO_ADDRESS = "EQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAM9c";
 

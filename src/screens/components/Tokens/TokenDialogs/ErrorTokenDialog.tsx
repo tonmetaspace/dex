@@ -23,7 +23,7 @@ const ContentWrapper = styled(Box)(({ isMobile }: { isMobile: boolean }) => ({
 const DialogButton = styled(Button)({
   width: 225,
   height: 50,
-  background: '#50A7EA',
+  background: '#2188ff',
   color: '#fff',
 })
 
