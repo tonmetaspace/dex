@@ -55,25 +55,6 @@ export const MainNetPoolsRoot: { [key: string]: PoolInfo } = {
         name: "TON Svet",
         decimals: 9,
     },
-    "EQC61IQRl0_la95t27xhIpjxZt32vl1QQVF2UgTNuvD18W-4": {
-        ammMinter: "EQDnLbES4CER47LYR45Ti0cw4ScvPUJ3HShtH9FbIFGDACkj",
-        tokenMinter: "EQC61IQRl0_la95t27xhIpjxZt32vl1QQVF2UgTNuvD18W-4",
-        image: "https://raw.githubusercontent.com/orbit-chain/bridge-token-image/main/ton/usdc.png",
-        displayName: "oUSDC",
-        color: "#3EAAB1",
-        name: "Orbit Bridge TON USD Coin",
-        decimals: 6,
-    },
-    "EQCcLAW537KnRg_aSPrnQJoyYjOZkzqYp6FVmRUvN1crSazV": {
-        ammMinter: "EQB8Fmy0fbDNyEP_j0lZLbJqbEORgyWLEmJPJWMNbPy-vS_7",
-        tokenMinter: "EQCcLAW537KnRg_aSPrnQJoyYjOZkzqYp6FVmRUvN1crSazV",
-        image: "https://bafkreie6ydxbcmq7xqalyxvqo6tq4fo7ecycv5jy2dwafn2yhelcubjaeq.ipfs.nftstorage.link/",
-        displayName: "AMBR",
-        color: "#F8BD58",
-        name: "Ambra",
-        isCustom: false,
-        decimals: 9,
-    },
 };
 
 export let MainNetPools = (): { [key: string]: PoolInfo } => MainNetPoolsRoot;
