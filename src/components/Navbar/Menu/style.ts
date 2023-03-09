@@ -11,6 +11,7 @@ const useStyles = makeStyles((theme: Theme) => ({
     paddingLeft: 26,
     paddingRight: 22,
     paddingTop: 20,
+    background: "#1b1f23",
     height: "100%",
     [theme.breakpoints.down("sm")]: {
       width: 330,

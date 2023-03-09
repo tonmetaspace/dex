@@ -116,11 +116,10 @@ function Menu({ open, hide }: Props) {
             
           </ActionButton>
           <ActionButton
-            customClassName={isDebug() ? "" : "coming-soon"}
+            customClassName={isDebug() ? "" : ""}
             onClick={onCreatePool}
           >
             {t("create-new-pool")}
-            <small>{t("coming-soon")}</small>
           </ActionButton>
           <ActionButton onClick={onSupport}>
             <HelpOutlineRoundedIcon />
