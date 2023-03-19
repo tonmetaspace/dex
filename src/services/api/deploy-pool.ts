@@ -46,10 +46,10 @@ const client = new TonClient({
 });
 
 const META_DATA_DEFUALT = {
-    description: "TonSwap Liquidity Provider Jetton.",
+    description: "Metaspasce Liquidity Provider Jetton.",
     decimals: "9",
-    image: "ipfs://bafkreia3ktmxxobtn6exd5juehf3k4tmcl46cej7buk3ce2nub7xl2573i",
-    symbol: "TONSWAP-LP",
+    image: "ipfs://bafkreibdjvhsryifpxxpiep5mmjdncpydt5kcrt4mtuavsyjzkd2sfhjte?filename=logo_lp.png",
+    symbol: "DEX-LP",
 };
 
 export async function poolStateInit(jettonMinter: Address, workchain: number) {
@@ -105,7 +105,7 @@ function buildStateInit(contentData: { [s: string]: string }) {
     dataCell.bits.writeAddress(zeroAddress); // token_wallet_address starts as null
     dataCell.bits.writeCoins(0); // ton-reserves
     dataCell.bits.writeCoins(0); // token-reserves
-    dataCell.bits.writeAddress(Address.parse("EQAxZiaJf80xadJw4qvFN5WkNACXAP56Wa00svHTf4iAjpqy")); // TODO (admin client side is quite dangerous)
+    dataCell.bits.writeAddress(Address.parse("EQApcz3xqDdcBhfS51-8uSGJDEub1iR8nHYc-G3vl7YZ_Yvj")); // TODO #51 (admin client side is quite dangerous)
     dataCell.refs.push(contentCell); // meta-data
     dataCell.refs.push(Cell.fromBoc(ammWalletCode)[0]); // wallet-code
     return {

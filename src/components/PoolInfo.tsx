@@ -67,7 +67,7 @@ const PoolInfoCenteringWrapper = styled(PoolInfoLineWrapper)({
 const PoolInfoText = styled(Typography)({
   color: '#000',
   fontSize: '12px',
-  fontWeight: 400,
+  fontWeight: 900,
   letterSpacing: '-0.15px',
   fontFamily: 'Mulish',
   overflow: 'hidden',
@@ -82,7 +82,7 @@ const PoolInfoPlug = styled(PoolInfoText)({
 })
 
 const PoolInfoTitle = styled(PoolInfoText)({
-  fontWeight: 700,
+  fontWeight: 900,
   textAlign: 'center',
   maxWidth: 350,
 })

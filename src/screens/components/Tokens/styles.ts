@@ -83,7 +83,7 @@ export const StyledTokenTexts = styled(Box)({
  "& .name": {
   fontSize: 12,
   opacity: 0.6,
-  fontWeight: 400
+  fontWeight: 900
  }
 })
 

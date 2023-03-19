@@ -31,7 +31,7 @@ const AddressText = ({ address }: { address: string }) => {
   };
   return (
     <StyledAddressBox className="address">
-      <Link href={`https://tonscan.org/address/${address}`} target="_blank">
+      <Link href={`https://tonapi.io/account/${address}`} target="_blank">
         {address}
       </Link>
       <CopyToClipboard text={address} onCopy={onCopy}>
