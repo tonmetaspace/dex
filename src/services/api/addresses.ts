@@ -55,6 +55,15 @@ export const MainNetPoolsRoot: { [key: string]: PoolInfo } = {
         name: "TON Svet",
         decimals: 9,
     },
+    EQANasbzD5wdVx0qikebkchrH64zNgsB38oC9PVu7rG16qNB: {
+        ammMinter: "EQA0b9fTX2eVTV8QfdyGlGUO6uTc2wWOs-7IsxqmU2FuOvvC",
+        tokenMinter: "EQANasbzD5wdVx0qikebkchrH64zNgsB38oC9PVu7rG16qNB",
+        image: "https://raw.githubusercontent.com/orbit-chain/bridge-token-image/main/ton/wbtc.png",
+        displayName: "oWBTC",
+        color: "#3EAAB1",
+        name: "Orbit Bridge TON WBTC",
+        decimals: 8,
+    },
 };
 
 export let MainNetPools = (): { [key: string]: PoolInfo } => MainNetPoolsRoot;
