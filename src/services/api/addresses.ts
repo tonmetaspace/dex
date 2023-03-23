@@ -32,9 +32,9 @@ export const MainNetPoolsRoot: { [key: string]: PoolInfo } = {
         ammMinter: "EQDfNXyqvcRNn5ecJ_HDXu8eFJ8A3l4zUPoNguBE9guoCIc0",
         tokenMinter: "EQB9Op5MAUoymk6Y_4x5IX3qdGHhUhSmMmsVoEA-jzOYI7g-",
         image: "https://cache.tonapi.io/imgproxy/419-dLlmMDdiRHFzEJAllekr20jczVl0Y2v-r64D3dw/rs:fill:200:200:1/g:no/aHR0cHM6Ly9pcGZzLmlvL2lwZnMvYmFmeWJlaWVoYnh4MjV1ZmxlY3ozdHBzN2RmeHp5NzZycWRrN2kyb2Q1ZnJjdm4yc2cyaWs1bGlrZ2EvP2ZpbGVuYW1lPWxvZ29fY29uLnBuZw.webp",
-        displayName: "CON",
+        displayName: "kON",
         color: "#1b1f23",
-        name: "TONCon",
+        name: "kON",
         decimals: 9,
     },
     "EQDEcJlTPBymzUqOJ15QR44vIlPIHhsWllrIafWpPdeHiuNR": {
@@ -54,15 +54,6 @@ export const MainNetPoolsRoot: { [key: string]: PoolInfo } = {
         color: "#390075",
         name: "TON Svet",
         decimals: 9,
-    },
-    EQANasbzD5wdVx0qikebkchrH64zNgsB38oC9PVu7rG16qNB: {
-        ammMinter: "EQA0b9fTX2eVTV8QfdyGlGUO6uTc2wWOs-7IsxqmU2FuOvvC",
-        tokenMinter: "EQANasbzD5wdVx0qikebkchrH64zNgsB38oC9PVu7rG16qNB",
-        image: "https://raw.githubusercontent.com/orbit-chain/bridge-token-image/main/ton/wbtc.png",
-        displayName: "oWBTC",
-        color: "#3EAAB1",
-        name: "Orbit Bridge TON WBTC",
-        decimals: 8,
     },
 };
 
